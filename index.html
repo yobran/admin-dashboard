@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Dashboard Layout</title>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <h2><img src="./assets/" alt="">Dashboard</h2>
+            </div>
+            <nav>
+                <ul id="icons-navbar-items">
+                    <div class="main-icons">
+                        <li><img src="assets/icons/home.svg" alt="Home Icon"> Home</li>
+                        <li><img src="assets/icons/profile.svg" alt="Profile Icon"> Profile</li>
+                        <li><img src="assets/icons/messages.svg" alt="Messages Icon"> Messages</li>
+                        <li><img src="assets/icons/history.svg" alt="History Icon"> History</li>
+                        <li><img src="assets/icons/tasks (1).svg" alt="Tasks Icon"> Tasks</li>
+                        <li><img src="assets/icons/communities.svg" alt="Communities Icon"> Communities</li>
+                    </div>
+                    <div class="secondary-icons">
+                        <li><img src="assets/icons/settings.svg" alt="Settings Icon"> Settings</li>
+                        <li><img src="assets/icons/support.svg"alt="Support Icon"> Support</li>
+                        <li><img src="assets/icons/privacy.svg" alt="Privacy Icon"> Privacy</li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header id="top-nav">
+                <div class="search">
+                    <img src="assets/nav-bars/search.svg" alt=""> 
+                    <input type="text">
+                </div>
+
+                <div class="profile-access">
+                    <img id="belt" src="assets/nav-bars/bell-ring-outline.svg" alt="">
+                    <img class="avatar-profile" src="assets/profile/avatar.png" alt="">
+                    <p>Morgan Oakley</p>
+                </div>
+
+                <div class="welcome-message">
+                    <img class="avatar-profile" src="assets/profile/avatar.png" alt="">
+                    <div class="message">
+                        <p>Hi there,</p>
+                        <p id="welcome-specific-user"><strong>yobra(yobra)</strong></p>
+                    </div>
+                </div>
+
+                <div class="user-actions">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </header>
+
+            <div class="user-content" >
+                <!-- Projects Section -->
+                <section class="projects">
+                    <h2>Your Projects</h2>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <div class="project-card-contents">
+                                <h3>Super Cool Project</h3>
+                                <p>This project aims to revolutionize the way we interact with technology.</p>
+                            </div>
+                            <div class="project-actions">
+                                <button class="vector-button">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <!-- Example SVG content, replace this with your SVG -->
+                                      <path d="./assets/project-actions/fav-project-button.svg" fill="currentColor"/>
+                                    </svg>
+                                  </button>
+                                <button class="add-to-list-button">1</button>
+                                <button class="share-project-button">1</button>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-card-contents">
+                                <h3>Less Cool Project</h3>
+                                <p>A simple project that solves a minor inconvenience in daily life.</p>
+                            </div>
+                            <div class="project-actions">
+                                <span>⭐</span>
+                                <span>🔗</span>
+                                <span>💡</span>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-card-contents">
+                                <h3>Impossible App</h3>
+                                <p>An ambitious project that aims to achieve the impossible.</p>
+                            </div>
+                            <div class="project-actions">
+                                <span>⭐</span>
+                                <span>🔗</span>
+                                <span>💡</span>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-card-contents">
+                                <h3>Easy Peasy App</h3>
+ightforward. This app makes complex tasks easy app makes complex taskscomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easy easy and straightforward. This app makes complex tasks easy and straightforwardmakes complex taskscomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easycomplex tasks easy easy and straightforward. This app makes complex tasks easy and straightforward.</p>
+                            </div>
+                            <div class="project-actions">
+                                <span>⭐</span>
+                                <span>🔗</span>
+                                <span>💡</span>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-card-contents">
+                                <h3>Ad Blocker</h3>
+                                <p>A project designed to block A project designed to block A project designed to block unwanted ads and enhance user experience.</p>
+                            </div>
+                            <div>
+                                <button class="favorite-project-button">
+                                    <img src="assets/icons/star-line.svg" alt="Favorite">
+                                </button>
+                                
+                                <button class="share-project-button">
+                                    <img src="assets/icons/git-fork-line.svg" alt="Share">
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <div class="project-card">
+                            <div class="project-card-contents">
+                                <h3>Money Maker</h3>
+                                <p>An innovative project that helps users generate passive income.</p>
+                            </div>
+                            <div class="project-actions">
+                                <span>⭐</span>
+                                <span>🔗</span>
+                                <span>💡</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    
+                <!-- Announcements Section -->
+                <aside class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="announcements-lists right-panel">
+                        <ul>
+                            <li><strong>Site Maintenance</strong>: Vestibulum condimentum...</li>
+                            <li><strong>Community Share Day</strong>: Nam vel lectus tincidunt...</li>
+                            <li><strong>Updated Privacy Policy</strong>: Phasellus efficitur nisi...</li>
+                        </ul>
+                    </div>
+                </aside>
+    
+                <!-- Trending Section -->
+                <aside class="trending">
+                    <h2>Trending</h2>
+                    <div class="trending-lists right-panel">
+                        <ul>
+                            <li>@alvarez - World Peace Builder</li>
+                            <li>@ian - Super Cool Project</li>
+                            <li>@hall - Life Changing App</li>
+                            <li>@alex - No Traffic Maker</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
